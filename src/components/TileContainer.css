@@ -1,0 +1,7 @@
+.tileFlex{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; /*the important one that removes space between*/
+  align-items: flex-start;
+  flex-direction: row;
+}

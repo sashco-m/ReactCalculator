@@ -1,0 +1,19 @@
+.textStyle{
+  text-align:center;
+  color:white;
+  -webkit-text-stroke: 2px black;
+  font-size:3em;
+  font-family: sans-serif;
+}
+
+.tileStyle{
+  border: 3px solid black;
+  border-radius:8px;
+  height:20vw;
+  min-height:320px;
+  width:20vw;
+  min-width:320px;
+  background-repeat:no-repeat;
+  background-size: 400px;
+  background-position:right;
+}

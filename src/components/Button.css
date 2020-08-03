@@ -1,0 +1,44 @@
+.myButton{
+  background-color:#f9f9f9;
+  background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+  color:#666666;
+  text-shadow:0px 1px 0px #ffffff;
+  padding:6px 24px;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+}
+.delButton{
+  background-color:darkorange;
+  background:linear-gradient(to bottom, #ec7716 5%, #f59506 100%);
+  color:white;/*#e4d5d5;*/
+}
+/*https://www.bestcssbuttongenerator.com/#/28 */
+/*very useful for quickly making good looking buttons */
+
+.myButton ,.delButton{
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	text-decoration:none;
+
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+	background-color:#e9e9e9;
+}
+.delButton:hover{
+  background:linear-gradient(to bottom, #f59506 5%, #ec7716 100%);
+}
+.myButton:active ,.delButton:active{
+	position:relative;
+	top:1px;
+}

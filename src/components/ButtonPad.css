@@ -1,0 +1,18 @@
+.padLayout{
+ display:grid;
+ grid-template-columns: 10vw 10vw 10vw 10vw;
+ grid-template-rows: 5vw 5vw 5vw 5vw;
+ margin-left:30vw;
+ grid-gap:0.1vw;
+ touch-action: manipulation;
+}
+
+@media(orientation:portrait){
+
+  .padLayout{
+    grid-template-columns: 25vw 25vw 25vw 25vw;
+    grid-template-rows: 20vw 20vw 20vw 20vw;
+    margin-left:0vw;
+  }
+
+}
